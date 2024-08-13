@@ -58,9 +58,8 @@ public class Pilha {
     }
 
     public static void main(String[] args) {
-        int cap = 5;
-
-        Pilha p = new Pilha(cap);
+        
+        Pilha p = new Pilha(5);
 
         p.insere(1);
         p.insere(2);
